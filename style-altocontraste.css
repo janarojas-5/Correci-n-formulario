@@ -1,0 +1,43 @@
+body{ 
+    display: flex;
+    justify-content: center; /*horizontal*/
+    align-items: center;     /*vertical*/
+    min-height: 100vh;       /*altura*/
+    margin: 0px;              /*espacio del formulario hacia afuera*/
+    background-color: rgb(61, 58, 58); /* fondo general negro */
+    color: yellow;            /* Texto general blanco */
+    }
+
+form{
+    border: 2px solid yellow;  /*borde formulario*/
+    padding: 20px;             /*espacio del formulario hacia adentro*/
+    margin-top: 10px;         /* separa contenido de arriba*/
+    margin-bottom: 30px;    /* separa contenido de abajo */ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    }
+
+input{
+    margin-bottom: 5px;    /* separa contenido de abajo del input */ 
+    margin-top: 10px;      /* Separa contenido de arriba*/
+    background-color: rgb(61, 58, 58); 
+    color: white;            
+}
+
+button, input[ type=submit] {
+   margin: 0px auto;          /*centra horizontalmente */
+   display: inline-block;
+   background-color: yellow; 
+   color: rgb(0, 0, 0);          
+} 
+
+a.btn{
+   margin: 0px auto; 
+   display: inline-block;    
+   padding: 1px 6px;         /* le da el mismo tamaño interno que al input */
+   border: 1px solid #ffffff;
+   background-color: yellow; 
+   color: rgb(0, 0, 0);            
+   font-weight: bold;        /*n egrita */
+   margin-left: 10px;        
+}

@@ -1,0 +1,36 @@
+body{ 
+    display: flex;
+    justify-content: center; /*horizontal*/
+    align-items: center;     /*vertical*/
+    min-height: 100vh;       /*altura*/
+    margin: 0px;              /*espacio del formulario hacia afuera*/
+    }
+
+form{
+    border: 1px solid black;  /*borde formulario*/
+    padding: 20px;             /*espacio del formulario hacia adentro*/
+    margin-top: 10px;         /* Separa contenido de arriba*/
+    margin-bottom: 30px;    /* separa contenido de abajo */ 
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+input{
+    margin-bottom: 5px;    /* separa contenido de abajo del input */ 
+    margin-top: 10px;      /* Separa contenido de arriba*/
+     }
+
+button, input[ type=submit] {
+   margin: 0px auto;          /* centra horizontalmente */
+   display: inline-block;
+  
+    }
+
+a.btn{
+   margin: 0px auto; 
+   display: inline-block;    
+   padding: 1px 6px;         /* ce da el mismo tamaño interno que al input */
+   border: 1px solid #000000;
+   background-color:#d6d4d4;
+   color: rgb(0, 0, 0);           
+   margin-left: 10px;      
+}
