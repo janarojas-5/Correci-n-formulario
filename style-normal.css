@@ -19,7 +19,7 @@ input{
     margin-top: 10px;      /* Separa contenido de arriba*/
      }
 
-button, input[ type=submit] {
+button, input[type="submit"] {
    margin: 0px auto;          /* centra horizontalmente */
    display: inline-block;
   
